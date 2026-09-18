@@ -1,0 +1,30 @@
+Primeiro passo:
+- Criar uma conta no github (https://github.com/)
+
+Segundo passo:
+- Instalar o git no computador/notebook (https://git-scm.com/install/)
+
+Terceiro passo:
+- Configurar as permissões do git.
+
+git config --global user.name "João Silva"
+git config --global user.email joaosilva@gmail.com
+
+Quarto passo:
+- Criar repositório no github, colocando nome do projeto, descrição e privacidade
+
+Quinto passo:
+- Clonagem do repositório com o seguinte comando
+
+git clone https://github.com/JonathanDSLima/FacisaFlix.git
+
+Sexto passo:
+- Abrir um novo vscode ou intellji na pasta que acabou de aparecer após o comando de git clone
+
+Sétimo passo:
+- Adicionar arquivos que irão subir para o repositório dentro do github com o seguinte comando
+
+git add <nome-arquivo> ou . (Pode ser só o nome do arquivo ou um ponto)
+git add Passo-a-passo-git.txt (Nome do arquivo só irá preparar pra enviar aquele arquivo)
+git add . (Quando utilizado o ponto, prepara todos os arquivos alterados/novos/removidos)
+

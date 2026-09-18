@@ -1,0 +1,46 @@
+<div class="tela">
+  <div class="card">
+    <h1>Cadastro de filmes</h1>
+    <div class="inputs">
+      <form [formGroup]="filmeForm" class="centralizadora">
+        <mat-form-field appearance="outline">
+          <mat-label>Título</mat-label>
+          <input type="text" formControlName="titulo" matInput placeholder="Digite o título do filme">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Genero</mat-label>
+          <input type="text" formControlName="genero" matInput placeholder="Digite o genero do filme">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Sinopse</mat-label>
+          <input type="text" formControlName="sinopse" matInput placeholder="Digite a sinopse do filme">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Autor</mat-label>
+          <input type="text" formControlName="autor" matInput placeholder="Digite o autor do filme">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Ano de Lançamento</mat-label>
+          <input type="number" formControlName="anoLancamento" matInput placeholder="Digite o ano de lançamento do filme">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Duração</mat-label>
+          <input type="number" formControlName="duracao" matInput placeholder="Digite a duração do filme">
+        </mat-form-field>
+
+      </form>
+      <button matButton="outlined" [disabled]="filmeForm.invalid" (click)="enviarDados()" type="submit">Criar Filme</button>
+    </div>
+
+    <div *ngFor="let item of listaFilmes">
+      <p>{{ item }}</p>
+    </div>
+
+  </div>
+</div>
+

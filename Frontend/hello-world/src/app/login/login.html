@@ -1,0 +1,25 @@
+<div class="tela">
+  <div class="card">
+    <h1>Bem vindo!</h1>
+    <div class="inputs">
+      <form [formGroup]="loginForm" class="centralizadora">
+        <mat-form-field appearance="outline">
+          <mat-label>Login</mat-label>
+          <input type="text" formControlName="login" matInput placeholder="Digite seu login">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <mat-label>Senha</mat-label>
+          <input type="password" formControlName="senha" matInput placeholder="Digite sua senha">
+        </mat-form-field>
+      </form>
+      <button matButton="outlined" (click)="enviarDados()">Entrar</button>
+    </div>
+    <div class="links centralizadora">
+      <a href="">Esqueci a senha</a>
+      <a href="">Cadastre-se</a>
+    </div>
+
+  </div>
+</div>
+
