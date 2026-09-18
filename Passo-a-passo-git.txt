@@ -54,3 +54,9 @@ Segundo passo:
 - Ver as branchs criadas, e ver se foi movido para a branch nova
 
 git branch -a
+
+Terceiro passo:
+- Para transitar entre as branchs já existentes, utiliza-se o seguinte comando
+
+git checkout nome-branch
+
