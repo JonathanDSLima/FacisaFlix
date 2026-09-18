@@ -21,10 +21,21 @@ git clone https://github.com/JonathanDSLima/FacisaFlix.git
 Sexto passo:
 - Abrir um novo vscode ou intellji na pasta que acabou de aparecer após o comando de git clone
 
-Sétimo passo:
+Sétimo passo: (Escrever a carta)
 - Adicionar arquivos que irão subir para o repositório dentro do github com o seguinte comando
 
 git add <nome-arquivo> ou . (Pode ser só o nome do arquivo ou um ponto)
 git add Passo-a-passo-git.txt (Nome do arquivo só irá preparar pra enviar aquele arquivo)
 git add . (Quando utilizado o ponto, prepara todos os arquivos alterados/novos/removidos)
+
+Oitavo passo: (Preparar a carta)
+- Anotar tudo que está subindo (conhecido como comitar)
+
+git commit -m "Subindo back end e front end do facisa flix"
+
+Nono passo: (Enviar a carta)
+- Enviar o que foi comitado para o github
+
+git push origin main
+git push origin master
 
