@@ -79,3 +79,7 @@ Sexto passo:
 Sétimo passo:
 - Após resolver os conflitos (Aceitando alterações, removendo, deixando ambas) 
 deve rodar todos os comandos padrões de push, ou seja, git add ., git commit -m "", git push origin
+
+
+
+Link do repositório - https://github.com/JonathanDSLima/FacisaFlix
