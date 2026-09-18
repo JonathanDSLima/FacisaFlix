@@ -43,3 +43,12 @@ git push origin master
 
 ==================================================================================================
 
+Quarto passo:
+- Pegar as alterações de alguma branch seja ela, main, master, develop, carta-credito
+
+git pull origin cartao-credito
+
+obs: Não pode ter nada faltando pra subir, ou seja, o git pull só sera feito caso o git add, git commit, tenham sido feito antes
+obs2: O git push pode ser feito também após o git commit, porém com algumas ressalvas
+
+
