@@ -67,3 +67,15 @@ git pull origin cartao-credito
 
 obs: Não pode ter nada faltando pra subir, ou seja, o git pull só sera feito caso o git add, git commit, tenham sido feito antes
 obs2: O git push pode ser feito também após o git commit, porém com algumas ressalvas
+
+Quinto passo: 
+- Configurar o auto merge para o git pull origin
+
+git config pull.rebase false # merge
+
+Sexto passo:
+- Resolver os conflitos, de preferência numa IDE com git lens de extensão
+
+Sétimo passo:
+- Após resolver os conflitos (Aceitando alterações, removendo, deixando ambas) 
+deve rodar todos os comandos padrões de push, ou seja, git add ., git commit -m "", git push origin
