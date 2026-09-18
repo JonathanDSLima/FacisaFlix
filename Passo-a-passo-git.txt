@@ -43,3 +43,14 @@ git push origin master
 
 ==================================================================================================
 
+Passos avanços em equipe
+
+Primeiro passo:
+- Criar sua própria branch
+
+git checkout -b nova-branch
+
+Segundo passo:
+- Ver as branchs criadas, e ver se foi movido para a branch nova
+
+git branch -a
